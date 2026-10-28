@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <!-- <main> indicates this is the primary content of the document -->
+    <main id="calculator-container">
+        
+        <!-- <output> semantically represents the result of a calculation -->
+        <output id="display">0</output>
+
+        <!-- <section> with an aria-label logically groups the interactive controls -->
+        <section class="keypad" aria-label="Calculator controls">
+            <button class="btn-clear" id="clearBtn">Clear</button>
+            <button class="btn-backspace" id="backspaceBtn">Del</button>
+            
+            <button class="btn-operator" data-op="/">/</button>
+            <button class="btn-operator" data-op="*">*</button>
+            <button class="btn-operator" data-op="-">-</button>
+            <button class="btn-operator" data-op="+">+</button>
+
+            <button class="btn-number" data-num="7">7</button>
+            <button class="btn-number" data-num="8">8</button>
+            <button class="btn-number" data-num="9">9</button>
+            <button class="btn-number" data-num="4">4</button>
+            <button class="btn-number" data-num="5">5</button>
+            <button class="btn-number" data-num="6">6</button>
+            <button class="btn-number" data-num="1">1</button>
+            <button class="btn-number" data-num="2">2</button>
+            <button class="btn-number" data-num="3">3</button>
+            <button class="btn-number" data-num="0">0</button>
+            
+            <button class="btn-decimal" id="decimalBtn">.</button>
+            <button class="btn-equals" id="equalsBtn">=</button>
+        </section>
+        
+    </main>
+</body>
+</html>
