@@ -65,6 +65,7 @@ button:active {
     background-color: #EF4444; 
     color: white; 
 }
+
 .btn-clear:hover { background-color: #DC2626; }
 
 .btn-backspace { 
@@ -72,6 +73,7 @@ button:active {
     background-color: #F59E0B; 
     color: white; 
 }
+
 .btn-backspace:hover { background-color: #D97706; }
 
 .btn-equals { 
@@ -79,12 +81,14 @@ button:active {
     background-color: #3882F6; 
     color: white; 
 }
+
 .btn-equals:hover { background-color: #2563EB; }
 
 .btn-number, .btn-decimal { 
     background-color: #F3F4F6; 
     color: #1F2937;
 }
+
 .btn-number:hover, .btn-decimal:hover { 
     background-color: #D1D5DB; 
 }
@@ -93,6 +97,7 @@ button:active {
     background-color: #9CA3AF; 
     color: white;
 }
+
 .btn-operator:hover { 
     background-color: #6B7280; 
 }
